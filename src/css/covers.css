@@ -1,12 +1,3 @@
-body {
-  margin: 0;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 .content {
   position: relative;
 }
@@ -19,6 +10,11 @@ body {
   font-weight: 600;
   font-size: 34px;
   text-transform: uppercase;
+  background-color: #1c1d20;
+  background-image: url('../img/covers/covers-background.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .marquee__inner {
