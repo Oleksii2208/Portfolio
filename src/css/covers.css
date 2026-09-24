@@ -1,41 +1,54 @@
-.content {
-  position: relative;
-}
-.marquee {
-  position: absolute;
-  right: -800px;
-  left: 0;
-  overflow: hidden;
-  font-family: 'Pridi', sans-serif;
-  font-weight: 600;
-  font-size: 34px;
-  text-transform: uppercase;
+.covers-container {
+  height: 960px;
   background-color: #1c1d20;
   background-image: url('../img/covers/covers-background.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+.content {
+  /* position: relative; */
+}
+.marquee {
+  position: absolute;
+  /* right: -800px; */
+  left: 0;
+  overflow: hidden;
+  /* font-family: 'Pridi', sans-serif; */
+  /* font-weight: 600; */
+  /* font-size: 34px; */
+  /* text-transform: uppercase; */
 }
 
 .marquee__inner {
   /* height: 100vh; */
+
   display: flex;
   transform: rotate(16deg);
 }
 
 .marquee__line {
-  background-color: #ffdc00;
+  /* background-color: #ffdc00; */
   flex-shrink: 0;
   margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: calc(100% / 8);
+  width: calc(100% / 10);
   white-space: nowrap;
   animation-name: marqueeLine;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+  height: 314px;
+  max-width: 544px;
+}
+
+.img-covers {
+  width: 100%;
+  max-height: 330px;
+  object-fit: cover;
 }
 
 @keyframes marqueeLine {

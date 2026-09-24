@@ -9,6 +9,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 300px;
+  padding-bottom: 32px;
 }
 
 .hero-title {
@@ -19,4 +21,7 @@
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #fafafa;
+  margin: 0 auto;
+  margin-bottom: 243px;
+  /* max-width: 1084px; */
 }
