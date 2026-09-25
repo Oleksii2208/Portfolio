@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"index.js","sources":["../src/js/header.js"],"sourcesContent":["const refs = {\n  navList: document.querySelector('.menu-link-header'),\n  navMenu: document.querySelector('.nav-header'),\n};\n\nnavList.addEventListener('click', () => {\n  navMenu.classList.remove('visually-hidden');\n});\n"],"names":[],"mappings":"ssBACW,SAAS,cAAc,mBAAmB,EAC1C,SAAS,cAAc,aAAa,EAG/C,QAAQ,iBAAiB,QAAS,IAAM,CACtC,QAAQ,UAAU,OAAO,iBAAiB,CAC5C,CAAC"}
