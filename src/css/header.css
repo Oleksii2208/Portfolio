@@ -1,5 +1,5 @@
 .header {
-  /* position: absolute; */
+  position: absolute;
   z-index: 1;
   top: 0;
   width: 100%;
@@ -15,4 +15,40 @@
 .header-container {
   display: flex;
   justify-content: space-between;
+  padding-top: 32px;
+}
+
+.logo {
+}
+
+.logo-header {
+  display: flex;
+  gap: 8px;
+}
+
+.img-logo-header {
+}
+.navigation-header {
+}
+.menu-link-header {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.nav-header {
+}
+.nav-list-header {
+}
+.nav-item-header {
+}
+.nav-link-header {
+}
+.header-anchor-link {
+  border-radius: 60px;
+  padding: 18px 24px;
+  /* width: 163px; */
+  height: 55px;
+  background-color: #ed3b44;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

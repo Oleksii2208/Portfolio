@@ -17,8 +17,23 @@
 }
 
 body {
-  /* background-color: #1c1d20; */
-  /* color: #fafafa; */
+  font-family: 'Inter Tight', sans-serif;
+  color: #fafafa;
+  background-color: #1c1d20;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 100%;
+}
+
+p {
+  line-height: 150%;
+  letter-spacing: -0.02em;
 }
 
 /* body {
